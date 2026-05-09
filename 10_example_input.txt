@@ -1,0 +1,55 @@
+# CDMO End-to-End Example Input
+
+Purpose: provide one complete example for deployment, testing, and user-side execution.
+
+## User-facing startup prompt
+Please help me build a CDMO valuation workflow for a listed Chinese company.
+
+## Example target company
+- Company name: WuXi AppTec
+- stkcd: 603259
+- Industry segment: CDMO
+- Sub-segment: integrated service platform
+- Peer list: Asymchem Laboratories, Porton Pharma Solutions, Jiuzhou Pharmaceutical
+
+## Historical data settings
+- Historical start year: 2019
+- Historical end year: 2024
+
+## WRDS credentials to enter in the tool
+- WRDS_username: [enter your WRDS username here]
+- WRDS_pwd: [enter your WRDS password here]
+
+## Forecast assumptions to confirm before DCF
+The agent should pause and ask for confirmation of these values:
+- Revenue growth forecast:
+  - 2025: user confirmed
+  - 2026: user confirmed
+  - 2027: user confirmed
+  - 2028: user confirmed
+  - 2029: user confirmed
+- Gross margin or operating margin: user confirmed
+- Tax rate: user confirmed
+- Depreciation and amortization rate: user confirmed
+- Capex intensity: user confirmed
+- Working capital change assumptions: user confirmed
+- Risk-free rate: user confirmed
+- Market risk premium: user confirmed
+- Beta: use A3 output or user confirmed
+- Debt cost: user confirmed
+- Long-term growth rate: user confirmed
+- Forecast horizon for DCF: 2025-2029
+
+## Expected outputs
+- Cleaned annual financial statements from A1
+- Historical ratio and trend tables from A2
+- Beta, stock price, and sample size from A3
+- DCF table, WACC, and value per share from A4
+- Final analyst-style report with charts and risk notes
+- Downloadable output pack containing text, tables, charts, and assumption log
+
+## Test expectations
+- Do not auto-fill critical valuation assumptions.
+- If WRDS data is missing, report the missing fields clearly.
+- If the user changes assumptions, log the change before running DCF.
+- The final download should be separate from the valuation logic.

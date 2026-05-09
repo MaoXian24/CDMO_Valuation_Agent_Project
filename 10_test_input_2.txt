@@ -1,0 +1,29 @@
+# CDMO Agent Test Input 2
+
+Purpose: test a smaller company and data-missing scenario.
+
+Please collect the following inputs:
+- Company name or stkcd: Porton Pharma Solutions / 300363
+- Industry segment: CDMO
+- Preferred sub-segment: service platform / integrated CDMO
+- Peer list: WuXi AppTec, Asymchem Laboratories, Jiuzhou Pharmaceutical
+- Historical start year: 2018
+- Historical end year: 2024
+- Forecast years for DCF: 2025-2029
+- Revenue growth assumptions: user to confirm
+- Gross or operating margin assumptions: user to confirm
+- Tax rate: user to confirm
+- Depreciation and amortization rate: user to confirm
+- Capex intensity: user to confirm
+- Working capital assumptions: user to confirm
+- Risk-free rate: user to confirm
+- Market risk premium: user to confirm
+- Beta: user to confirm or fetch from tool
+- Debt cost: user to confirm
+- Terminal growth rate: user to confirm
+- Output format: concise report + benchmark chart + downloadable zip package
+
+Special checks:
+- If some WRDS fields are missing, report them clearly.
+- If peer data is incomplete, show fallback notes instead of hiding gaps.
+- If valuation assumptions are changed, log the change.

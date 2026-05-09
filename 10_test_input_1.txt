@@ -1,0 +1,29 @@
+# CDMO Agent Test Input 1
+
+Purpose: test a standard CDMO valuation run with a large company.
+
+Please collect the following inputs:
+- Company name or stkcd: WuXi AppTec / 603259
+- Industry segment: CDMO
+- Preferred sub-segment: broad CDMO / integrated service platform
+- Peer list: Asymchem Laboratories, Jiuzhou Pharmaceutical, Porton Pharma Solutions
+- Historical start year: 2019
+- Historical end year: 2024
+- Forecast years for DCF: 2025-2029
+- Revenue growth assumptions (base case): user to confirm
+- Margin assumptions (base case): user to confirm
+- Tax rate: user to confirm
+- Depreciation and amortization rate: user to confirm
+- Capex intensity: user to confirm
+- Working capital assumptions: user to confirm
+- Risk-free rate: user to confirm
+- Market risk premium: user to confirm
+- Beta: user to confirm or fetch from tool
+- Debt cost: user to confirm
+- Terminal growth rate: user to confirm
+- Output format: report + charts + valuation table + downloadable zip package
+
+Notes:
+- Do not auto-fill critical valuation assumptions.
+- Use WRDS for historical statements, beta, and market data.
+- Use the CDMO knowledge base for narrative grounding.
